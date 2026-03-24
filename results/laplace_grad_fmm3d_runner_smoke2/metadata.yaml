@@ -1,0 +1,11 @@
+n_dim: 3
+n_src: 128
+n_trg: 32
+n_mfm: 1
+seed: 0
+uniform: 0
+set_fixed_charges: 1
+reference_eps: 1e-14
+kernel: laplace
+reference_kernel_normalization: 1/(4*pi*r)
+dmk_output_normalization: 1/r

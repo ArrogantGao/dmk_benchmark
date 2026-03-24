@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="860" viewBox="0 0 1080 860">
+<rect width="100%" height="100%" fill="white"/>
+<text x="540.00" y="22" text-anchor="middle" font-size="18" font-weight="bold">Laplace timing summary, 12 digits</text>
+<text x="50.00" y="34.00" font-size="12" font-weight="bold">MPI ranks</text>
+<line x1="130.00" y1="30.00" x2="154.00" y2="30.00" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="142.00" cy="30.00" r="3.2" fill="#1f77b4"/>
+<text x="164.00" y="34.00" font-size="12">1</text>
+<line x1="240.00" y1="30.00" x2="264.00" y2="30.00" stroke="#d95f02" stroke-width="2.2"/>
+<circle cx="252.00" cy="30.00" r="3.2" fill="#d95f02"/>
+<text x="274.00" y="34.00" font-size="12">2</text>
+<line x1="350.00" y1="30.00" x2="374.00" y2="30.00" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="362.00" cy="30.00" r="3.2" fill="#2ca02c"/>
+<text x="384.00" y="34.00" font-size="12">4</text>
+<rect x="34.00" y="62.00" width="1012.00" height="220.00" fill="white" stroke="#d9d9d9"/>
+<text x="540.00" y="74.00" text-anchor="middle" font-size="14" font-weight="bold">pot-only total time</text>
+<line x1="92.00" y1="246.00" x2="1028.00" y2="246.00" stroke="#ededed"/>
+<text x="84.00" y="250.00" text-anchor="end" font-size="11">0.00</text>
+<line x1="92.00" y1="204.50" x2="1028.00" y2="204.50" stroke="#ededed"/>
+<text x="84.00" y="208.50" text-anchor="end" font-size="11">16.75</text>
+<line x1="92.00" y1="163.00" x2="1028.00" y2="163.00" stroke="#ededed"/>
+<text x="84.00" y="167.00" text-anchor="end" font-size="11">33.51</text>
+<line x1="92.00" y1="121.50" x2="1028.00" y2="121.50" stroke="#ededed"/>
+<text x="84.00" y="125.50" text-anchor="end" font-size="11">50.26</text>
+<line x1="92.00" y1="80.00" x2="1028.00" y2="80.00" stroke="#ededed"/>
+<text x="84.00" y="84.00" text-anchor="end" font-size="11">67.02</text>
+<line x1="92.00" y1="80.00" x2="92.00" y2="246.00" stroke="#444"/>
+<line x1="92.00" y1="246.00" x2="1028.00" y2="246.00" stroke="#444"/>
+<line x1="92.00" y1="246.00" x2="92.00" y2="251.00" stroke="#444"/>
+<text x="92.00" y="264.00" text-anchor="middle" font-size="11">1</text>
+<line x1="248.00" y1="246.00" x2="248.00" y2="251.00" stroke="#444"/>
+<text x="248.00" y="264.00" text-anchor="middle" font-size="11">2</text>
+<line x1="404.00" y1="246.00" x2="404.00" y2="251.00" stroke="#444"/>
+<text x="404.00" y="264.00" text-anchor="middle" font-size="11">4</text>
+<line x1="560.00" y1="246.00" x2="560.00" y2="251.00" stroke="#444"/>
+<text x="560.00" y="264.00" text-anchor="middle" font-size="11">8</text>
+<line x1="716.00" y1="246.00" x2="716.00" y2="251.00" stroke="#444"/>
+<text x="716.00" y="264.00" text-anchor="middle" font-size="11">16</text>
+<line x1="872.00" y1="246.00" x2="872.00" y2="251.00" stroke="#444"/>
+<text x="872.00" y="264.00" text-anchor="middle" font-size="11">32</text>
+<line x1="1028.00" y1="246.00" x2="1028.00" y2="251.00" stroke="#444"/>
+<text x="1028.00" y="264.00" text-anchor="middle" font-size="11">64</text>
+<text x="560.00" y="274.00" text-anchor="middle" font-size="12">OMP threads per rank</text>
+<text x="48.00" y="172.00" text-anchor="middle" font-size="12" transform="rotate(-90 48.00 172.00)">seconds</text>
+<polyline points="92.00,92.30 248.00,165.42 404.00,202.09 560.00,219.60 716.00,227.26 872.00,229.61 1028.00,232.88" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="92.00" cy="92.30" r="3.2" fill="#1f77b4"/>
+<circle cx="248.00" cy="165.42" r="3.2" fill="#1f77b4"/>
+<circle cx="404.00" cy="202.09" r="3.2" fill="#1f77b4"/>
+<circle cx="560.00" cy="219.60" r="3.2" fill="#1f77b4"/>
+<circle cx="716.00" cy="227.26" r="3.2" fill="#1f77b4"/>
+<circle cx="872.00" cy="229.61" r="3.2" fill="#1f77b4"/>
+<circle cx="1028.00" cy="232.88" r="3.2" fill="#1f77b4"/>
+<polyline points="92.00,162.69 248.00,200.82 404.00,219.96 560.00,229.09 716.00,233.21 872.00,234.44 1028.00,236.11" fill="none" stroke="#d95f02" stroke-width="2.2"/>
+<circle cx="92.00" cy="162.69" r="3.2" fill="#d95f02"/>
+<circle cx="248.00" cy="200.82" r="3.2" fill="#d95f02"/>
+<circle cx="404.00" cy="219.96" r="3.2" fill="#d95f02"/>
+<circle cx="560.00" cy="229.09" r="3.2" fill="#d95f02"/>
+<circle cx="716.00" cy="233.21" r="3.2" fill="#d95f02"/>
+<circle cx="872.00" cy="234.44" r="3.2" fill="#d95f02"/>
+<circle cx="1028.00" cy="236.11" r="3.2" fill="#d95f02"/>
+<polyline points="92.00,199.45 248.00,220.01 404.00,230.36 560.00,235.42 716.00,237.65 872.00,238.47 1028.00,239.25" fill="none" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="92.00" cy="199.45" r="3.2" fill="#2ca02c"/>
+<circle cx="248.00" cy="220.01" r="3.2" fill="#2ca02c"/>
+<circle cx="404.00" cy="230.36" r="3.2" fill="#2ca02c"/>
+<circle cx="560.00" cy="235.42" r="3.2" fill="#2ca02c"/>
+<circle cx="716.00" cy="237.65" r="3.2" fill="#2ca02c"/>
+<circle cx="872.00" cy="238.47" r="3.2" fill="#2ca02c"/>
+<circle cx="1028.00" cy="239.25" r="3.2" fill="#2ca02c"/>
+<rect x="34.00" y="316.00" width="1012.00" height="220.00" fill="white" stroke="#d9d9d9"/>
+<text x="540.00" y="328.00" text-anchor="middle" font-size="14" font-weight="bold">pot+grad total time</text>
+<line x1="92.00" y1="500.00" x2="1028.00" y2="500.00" stroke="#ededed"/>
+<text x="84.00" y="504.00" text-anchor="end" font-size="11">0.00</text>
+<line x1="92.00" y1="458.50" x2="1028.00" y2="458.50" stroke="#ededed"/>
+<text x="84.00" y="462.50" text-anchor="end" font-size="11">21.41</text>
+<line x1="92.00" y1="417.00" x2="1028.00" y2="417.00" stroke="#ededed"/>
+<text x="84.00" y="421.00" text-anchor="end" font-size="11">42.83</text>
+<line x1="92.00" y1="375.50" x2="1028.00" y2="375.50" stroke="#ededed"/>
+<text x="84.00" y="379.50" text-anchor="end" font-size="11">64.24</text>
+<line x1="92.00" y1="334.00" x2="1028.00" y2="334.00" stroke="#ededed"/>
+<text x="84.00" y="338.00" text-anchor="end" font-size="11">85.65</text>
+<line x1="92.00" y1="334.00" x2="92.00" y2="500.00" stroke="#444"/>
+<line x1="92.00" y1="500.00" x2="1028.00" y2="500.00" stroke="#444"/>
+<line x1="92.00" y1="500.00" x2="92.00" y2="505.00" stroke="#444"/>
+<text x="92.00" y="518.00" text-anchor="middle" font-size="11">1</text>
+<line x1="248.00" y1="500.00" x2="248.00" y2="505.00" stroke="#444"/>
+<text x="248.00" y="518.00" text-anchor="middle" font-size="11">2</text>
+<line x1="404.00" y1="500.00" x2="404.00" y2="505.00" stroke="#444"/>
+<text x="404.00" y="518.00" text-anchor="middle" font-size="11">4</text>
+<line x1="560.00" y1="500.00" x2="560.00" y2="505.00" stroke="#444"/>
+<text x="560.00" y="518.00" text-anchor="middle" font-size="11">8</text>
+<line x1="716.00" y1="500.00" x2="716.00" y2="505.00" stroke="#444"/>
+<text x="716.00" y="518.00" text-anchor="middle" font-size="11">16</text>
+<line x1="872.00" y1="500.00" x2="872.00" y2="505.00" stroke="#444"/>
+<text x="872.00" y="518.00" text-anchor="middle" font-size="11">32</text>
+<line x1="1028.00" y1="500.00" x2="1028.00" y2="505.00" stroke="#444"/>
+<text x="1028.00" y="518.00" text-anchor="middle" font-size="11">64</text>
+<text x="560.00" y="528.00" text-anchor="middle" font-size="12">OMP threads per rank</text>
+<text x="48.00" y="426.00" text-anchor="middle" font-size="12" transform="rotate(-90 48.00 426.00)">seconds</text>
+<polyline points="92.00,346.30 248.00,420.06 404.00,456.95 560.00,474.84 716.00,482.65 872.00,485.31 1028.00,488.76" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="92.00" cy="346.30" r="3.2" fill="#1f77b4"/>
+<circle cx="248.00" cy="420.06" r="3.2" fill="#1f77b4"/>
+<circle cx="404.00" cy="456.95" r="3.2" fill="#1f77b4"/>
+<circle cx="560.00" cy="474.84" r="3.2" fill="#1f77b4"/>
+<circle cx="716.00" cy="482.65" r="3.2" fill="#1f77b4"/>
+<circle cx="872.00" cy="485.31" r="3.2" fill="#1f77b4"/>
+<circle cx="1028.00" cy="488.76" r="3.2" fill="#1f77b4"/>
+<polyline points="92.00,418.53 248.00,456.15 404.00,475.27 560.00,484.56 716.00,488.70 872.00,490.04 1028.00,491.68" fill="none" stroke="#d95f02" stroke-width="2.2"/>
+<circle cx="92.00" cy="418.53" r="3.2" fill="#d95f02"/>
+<circle cx="248.00" cy="456.15" r="3.2" fill="#d95f02"/>
+<circle cx="404.00" cy="475.27" r="3.2" fill="#d95f02"/>
+<circle cx="560.00" cy="484.56" r="3.2" fill="#d95f02"/>
+<circle cx="716.00" cy="488.70" r="3.2" fill="#d95f02"/>
+<circle cx="872.00" cy="490.04" r="3.2" fill="#d95f02"/>
+<circle cx="1028.00" cy="491.68" r="3.2" fill="#d95f02"/>
+<polyline points="92.00,455.44 248.00,475.44 404.00,485.61 560.00,490.61 716.00,492.86 872.00,493.72 1028.00,493.71" fill="none" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="92.00" cy="455.44" r="3.2" fill="#2ca02c"/>
+<circle cx="248.00" cy="475.44" r="3.2" fill="#2ca02c"/>
+<circle cx="404.00" cy="485.61" r="3.2" fill="#2ca02c"/>
+<circle cx="560.00" cy="490.61" r="3.2" fill="#2ca02c"/>
+<circle cx="716.00" cy="492.86" r="3.2" fill="#2ca02c"/>
+<circle cx="872.00" cy="493.72" r="3.2" fill="#2ca02c"/>
+<circle cx="1028.00" cy="493.71" r="3.2" fill="#2ca02c"/>
+<rect x="34.00" y="570.00" width="1012.00" height="220.00" fill="white" stroke="#d9d9d9"/>
+<text x="540.00" y="582.00" text-anchor="middle" font-size="14" font-weight="bold">total overhead</text>
+<line x1="92.00" y1="754.00" x2="1028.00" y2="754.00" stroke="#ededed"/>
+<text x="84.00" y="758.00" text-anchor="end" font-size="11">0.91</text>
+<line x1="92.00" y1="712.50" x2="1028.00" y2="712.50" stroke="#ededed"/>
+<text x="84.00" y="716.50" text-anchor="end" font-size="11">1.03</text>
+<line x1="92.00" y1="671.00" x2="1028.00" y2="671.00" stroke="#ededed"/>
+<text x="84.00" y="675.00" text-anchor="end" font-size="11">1.16</text>
+<line x1="92.00" y1="629.50" x2="1028.00" y2="629.50" stroke="#ededed"/>
+<text x="84.00" y="633.50" text-anchor="end" font-size="11">1.28</text>
+<line x1="92.00" y1="588.00" x2="1028.00" y2="588.00" stroke="#ededed"/>
+<text x="84.00" y="592.00" text-anchor="end" font-size="11">1.41</text>
+<line x1="92.00" y1="588.00" x2="92.00" y2="754.00" stroke="#444"/>
+<line x1="92.00" y1="754.00" x2="1028.00" y2="754.00" stroke="#444"/>
+<line x1="92.00" y1="754.00" x2="92.00" y2="759.00" stroke="#444"/>
+<text x="92.00" y="772.00" text-anchor="middle" font-size="11">1</text>
+<line x1="248.00" y1="754.00" x2="248.00" y2="759.00" stroke="#444"/>
+<text x="248.00" y="772.00" text-anchor="middle" font-size="11">2</text>
+<line x1="404.00" y1="754.00" x2="404.00" y2="759.00" stroke="#444"/>
+<text x="404.00" y="772.00" text-anchor="middle" font-size="11">4</text>
+<line x1="560.00" y1="754.00" x2="560.00" y2="759.00" stroke="#444"/>
+<text x="560.00" y="772.00" text-anchor="middle" font-size="11">8</text>
+<line x1="716.00" y1="754.00" x2="716.00" y2="759.00" stroke="#444"/>
+<text x="716.00" y="772.00" text-anchor="middle" font-size="11">16</text>
+<line x1="872.00" y1="754.00" x2="872.00" y2="759.00" stroke="#444"/>
+<text x="872.00" y="772.00" text-anchor="middle" font-size="11">32</text>
+<line x1="1028.00" y1="754.00" x2="1028.00" y2="759.00" stroke="#444"/>
+<text x="1028.00" y="772.00" text-anchor="middle" font-size="11">64</text>
+<text x="560.00" y="782.00" text-anchor="middle" font-size="12">OMP threads per rank</text>
+<text x="48.00" y="680.00" text-anchor="middle" font-size="12" transform="rotate(-90 48.00 680.00)">ratio</text>
+<polyline points="92.00,630.52 248.00,633.89 404.00,638.91 560.00,650.43 716.00,662.02 872.00,674.76 1028.00,691.57" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="92.00" cy="630.52" r="3.2" fill="#1f77b4"/>
+<circle cx="248.00" cy="633.89" r="3.2" fill="#1f77b4"/>
+<circle cx="404.00" cy="638.91" r="3.2" fill="#1f77b4"/>
+<circle cx="560.00" cy="650.43" r="3.2" fill="#1f77b4"/>
+<circle cx="716.00" cy="662.02" r="3.2" fill="#1f77b4"/>
+<circle cx="872.00" cy="674.76" r="3.2" fill="#1f77b4"/>
+<circle cx="1028.00" cy="691.57" r="3.2" fill="#1f77b4"/>
+<polyline points="92.00,639.93 248.00,643.07 404.00,651.98 560.00,667.42 716.00,679.80 872.00,689.54 1028.00,698.32" fill="none" stroke="#d95f02" stroke-width="2.2"/>
+<circle cx="92.00" cy="639.93" r="3.2" fill="#d95f02"/>
+<circle cx="248.00" cy="643.07" r="3.2" fill="#d95f02"/>
+<circle cx="404.00" cy="651.98" r="3.2" fill="#d95f02"/>
+<circle cx="560.00" cy="667.42" r="3.2" fill="#d95f02"/>
+<circle cx="716.00" cy="679.80" r="3.2" fill="#d95f02"/>
+<circle cx="872.00" cy="689.54" r="3.2" fill="#d95f02"/>
+<circle cx="1028.00" cy="698.32" r="3.2" fill="#d95f02"/>
+<polyline points="92.00,648.62 248.00,653.89 404.00,664.54 560.00,678.47 716.00,692.36 872.00,700.75 1028.00,659.19" fill="none" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="92.00" cy="648.62" r="3.2" fill="#2ca02c"/>
+<circle cx="248.00" cy="653.89" r="3.2" fill="#2ca02c"/>
+<circle cx="404.00" cy="664.54" r="3.2" fill="#2ca02c"/>
+<circle cx="560.00" cy="678.47" r="3.2" fill="#2ca02c"/>
+<circle cx="716.00" cy="692.36" r="3.2" fill="#2ca02c"/>
+<circle cx="872.00" cy="700.75" r="3.2" fill="#2ca02c"/>
+<circle cx="1028.00" cy="659.19" r="3.2" fill="#2ca02c"/>
+</svg>

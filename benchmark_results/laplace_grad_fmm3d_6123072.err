@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------
+Ignoring value for oob_tcp_if_exclude on worker6092 (10.250.112.0/20: Did not find interface matching this subnet).
+(You can safely ignore this message.)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Ignoring value for oob_tcp_if_exclude on worker6092 (10.250.112.0/20: Did not find interface matching this subnet).
+(You can safely ignore this message.)
+--------------------------------------------------------------------------
+slurmstepd: error: *** JOB 6123072 ON worker6092 CANCELLED AT 2026-03-24T13:15:00 ***

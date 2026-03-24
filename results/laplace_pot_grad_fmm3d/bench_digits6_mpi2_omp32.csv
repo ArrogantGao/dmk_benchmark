@@ -1,0 +1,17 @@
+# mode: benchmark
+# mpi_ranks: 2
+# omp_threads_per_rank: 32
+# n_src: 1000000
+# n_trg: 10000
+# eps: 9.9999999999999995e-07
+# reference_eps: 1e-14
+# seed: 0
+# uniform: 0
+# set_fixed_charges: 1
+# n_per_leaf: 280
+# warmup_runs: 0
+# measured_runs: 1
+# reference_kernel_normalization: 1/(4*pi*r)
+# dmk_output_scaled_by: 1/(4*pi)
+run_idx,pot_build_time,pot_eval_time,pot_total_time,pot_eval_pts_per_sec,pot_total_pts_per_sec,potgrad_build_time,potgrad_eval_time,potgrad_total_time,potgrad_eval_pts_per_sec,potgrad_total_pts_per_sec,eval_overhead,total_overhead,pot_src_rel_l2,pot_trg_rel_l2,pot_src_max_rel,pot_trg_max_rel,grad_src_rel_l2,grad_trg_rel_l2,grad_src_max_rel,grad_trg_max_rel
+0,0.31993207100094878,0.36546443599945633,0.68539650700040511,2763606.7986694677,1473599.5729248777,0.30050782200123649,0.45745551295112818,0.75796333495236468,2207864.9648012929,1332518.2807997896,1.2517100650302639,1.1058756897807136,2.8479363563687936e-07,3.3665652773337928e-07,0.27879536908279867,0.081040861745991552,1.8512529774990708e-08,3.6625995849810204e-08,0.0010017064477097909,0.00011084258042656848

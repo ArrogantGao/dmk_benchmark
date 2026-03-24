@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------
+Ignoring value for oob_tcp_if_exclude on worker6107 (10.250.112.0/20: Did not find interface matching this subnet).
+(You can safely ignore this message.)
+--------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./scripts/report_laplace_grad_fmm3d.py", line 217, in <module>
+    main()
+  File "./scripts/report_laplace_grad_fmm3d.py", line 208, in main
+    records = [aggregate_file(path) for path in files]
+  File "./scripts/report_laplace_grad_fmm3d.py", line 208, in <listcomp>
+    records = [aggregate_file(path) for path in files]
+  File "./scripts/report_laplace_grad_fmm3d.py", line 63, in aggregate_file
+    med = {col: statistics.median(to_float(row, col) for row in rows) for col in numeric_cols}
+  File "./scripts/report_laplace_grad_fmm3d.py", line 63, in <dictcomp>
+    med = {col: statistics.median(to_float(row, col) for row in rows) for col in numeric_cols}
+  File "/usr/lib64/python3.6/statistics.py", line 377, in median
+    data = sorted(data)
+  File "./scripts/report_laplace_grad_fmm3d.py", line 63, in <genexpr>
+    med = {col: statistics.median(to_float(row, col) for row in rows) for col in numeric_cols}
+  File "./scripts/report_laplace_grad_fmm3d.py", line 30, in to_float
+    return float(row[key])
+KeyError: 'pot_build_time'

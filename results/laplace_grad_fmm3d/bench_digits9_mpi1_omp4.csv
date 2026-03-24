@@ -1,0 +1,17 @@
+# mode: benchmark
+# mpi_ranks: 1
+# omp_threads_per_rank: 4
+# n_src: 1000000
+# n_trg: 10000
+# eps: 1.0000000000000001e-09
+# reference_eps: 1e-14
+# seed: 0
+# uniform: 0
+# set_fixed_charges: 1
+# n_per_leaf: 280
+# warmup_runs: 0
+# measured_runs: 1
+# reference_kernel_normalization: 1/(4*pi*r)
+# dmk_output_scaled_by: 1/(4*pi)
+run_idx,build_time,eval_time,total_time,eval_pts_per_sec,total_pts_per_sec,grad_src_rel_l2,grad_trg_rel_l2,grad_src_max_rel,grad_trg_max_rel
+0,0.95447959203738719,8.2508274510037154,9.2053070430411026,122411.96486021935,109719.31683294861,7.4035320467769884e-11,7.8379785691110607e-11,5.2848033424283103e-07,1.777082727793119e-07
