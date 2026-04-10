@@ -1,0 +1,3 @@
+mode,n_particles,omp_threads_requested,omp_threads_actual,eps,n_per_leaf,create_seconds,eval_warmup_seconds,eval_min_seconds,eval_avg_seconds,eval_max_seconds,total_min_seconds,mpts_per_sec
+free,200000,4,4,1e-03,500,0.088941,0.808611,0.826414,0.861130,0.895847,0.915355,0.242009
+pbc,200000,4,4,1e-03,500,0.075465,0.632340,0.663264,0.670150,0.677036,0.738729,0.301539
