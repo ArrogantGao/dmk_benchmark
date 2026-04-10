@@ -41,6 +41,10 @@ add_executable(bench_pbc_runtime bench_pbc_runtime.cpp)
 target_link_libraries(bench_pbc_runtime PRIVATE dmk OpenMP::OpenMP_CXX)
 target_include_directories(bench_pbc_runtime PRIVATE "${FIDMK_ROOT}/extern/nda/c++")
 
+add_executable(bench_pbc_mpi bench_pbc_mpi.cpp)
+target_link_libraries(bench_pbc_mpi PRIVATE dmk OpenMP::OpenMP_CXX)
+target_include_directories(bench_pbc_mpi PRIVATE "${FIDMK_ROOT}/extern/nda/c++")
+
 get_filename_component(DMK_FMM3D_LIBRARY_DIR "${DMK_FMM3D_LIBRARY}" DIRECTORY)
 set_target_properties(benchmark_laplace_grad_fmm3d PROPERTIES
   BUILD_RPATH "${DMK_FMM3D_LIBRARY_DIR}"
@@ -53,5 +57,8 @@ set_target_properties(bench_pbc_stagecheck PROPERTIES
   RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}"
 )
 set_target_properties(bench_pbc_runtime PROPERTIES
+  RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}"
+)
+set_target_properties(bench_pbc_mpi PROPERTIES
   RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}"
 )
